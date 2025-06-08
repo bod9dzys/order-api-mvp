@@ -1,0 +1,12 @@
+[run]
+branch = True
+omit =
+    **/tests/*
+    **/alembic/*
+    .github/*
+    Dockerfile
+    docker-compose.yml
+
+[report]
+show_missing = True
+skip_covered = True
